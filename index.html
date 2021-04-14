@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>iskander APP  </title>
+</head>
+<body>
+    <h1> hello Iskander ♥  </h1>
+    <form name="videoDetails">
+        <label for="video">select a video </video></label>
+        <input type="file" name="video" accept="video/*">
+        <button type="submit"> Details </button>
+    </form>
+<script>
+    document.querySelector('form').addEventListener('submit',(e)=> { 
+        e.preventDefault();
+        console.log(document.querySelector('input').files[0]);
+        alert('hello');
+    });
+</script>    
+</body>
+</html>

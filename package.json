@@ -1,0 +1,15 @@
+{
+  "name": "electronApp",
+  "version": "1.0.0",
+  "description": "first electron app ",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Iskande AB ",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.4",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
